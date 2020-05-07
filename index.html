@@ -1,45 +1,119 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&amp;display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Shivank Gautam</title>
+<style>
 
-    <!-- Begin Jekyll SEO tag v2.6.1 -->
-    <title>Shivank Gautam | shivank98.github.io</title>
-    <meta name="generator" content="Jekyll v3.8.5" />
-    <meta property="og:title" content="Shivank Gautam" />
-    <meta property="og:locale" content="en_US" />
-    <link rel="canonical" href="https://shivank98.github.io/" />
-    <meta property="og:url" content="https://shivank98.github.io/" />
-    <meta property="og:site_name" content="shivank98.github.io" />
 
-    <script type="application/ld+json">
-{"headline":"Shivank Gautam","@type":"WebSite","url":"https://shivank98.github.io/","name":"shivank98.github.io","@context":"https://schema.org"}</script>
-    <!-- End Jekyll SEO tag -->
+.container {
+  border: 2px solid #ccc;
+  background-color: rgb(247, 189, 0);
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
 
-    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-dark.css" type="text/css">
+/* Clear floats after containers */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: rgb(83, 126, 204);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
 </head>
-
 <body>
-    <div class="container-lg px-3 my-5 markdown-body">
+
+<div class="split left">
+  <div class="centered">
+    
+    <h2>I Drink TEA and I Code PYTHON</h2>
+    <br><a href="twitter.com/shivankgtm">shivankgtm</a></br>
+    <br><a href="github.com/shivank98">shivank98</a></br>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <h1>Shivank Gautam</h1>
+    <p>currently working @ StackBOX</p>
+
+    <div class="container">
+        <br><a href="twitter.com/shivankgtm">Twitter</a></br>
+        <br><a href="github.com/shivank98">Github</a></br>
+        <br><a href="t.me/shivank98">Telegram</a></br>
+      </div>
 
 
 
-
-        <h1 id="shivank-gautam">Shivank Gautam</h1>
-        <hr />
-        <h2 id="software-engineer-intern---stackbox">Software Engineer Intern - <strong>StackBOX</strong></h2>
-        <h2 id="former-mentor-deep-learning-and-neural-network---coursera">Former Mentor Deep Learning and Neural
-            Network - <strong>Coursera</strong></h2>
-        <h2 id="data-science-intern---celebaltech">Data Science Intern - <strong>CelebalTech</strong></h2>
-        <h2 id="former-organizer---pyjaipur">Former Organizer - <strong>PyJaipur</strong></h2>
-        <h2 id="microsoft-student-partner">Microsoft Student Partner</h2>
-
-
-
-
+  </div>
+</div>
+     
 </body>
-
-</html>
+</html> 
