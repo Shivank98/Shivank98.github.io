@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: shivank98.github.io
+Token: 74cdcc5de0fbd25900f1556cd0ab2d5976416552e276cf5955b2cb1e64038e4f
