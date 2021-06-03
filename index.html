@@ -1,119 +1,79 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&amp;display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Shivank Gautam</title>
-<style>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivank G.</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
+  <body>
+    <div class="container navigation">
+      <nav class="nav-brand">
+        <div class="container container-fluid">
+          <h1>Shivank Gautam</h1>
+          <span
+            ><strong>Software Engineer</strong>, Motion Education Pvt Ltd</span
+          >
+        </div>
+        <ul class="nav-pills">
+          <a
+            class="list-item-inline link-active link primary-link"
+            href="https://twitter.com/shivankgtm"
+            >Twitter</a
+          >
+          <a
+            class="list-item-inline link secondry-link"
+            href="https://github.com/shivank98"
+            >Github</a
+          >
+          <a class="list-item-inline link secondry-link" href="https://www.reddit.com/user/shivank98">Reddit</a>
+          <a class="list-item-inline link secondry-link" href="https://medium.com/@shivank98">Articles</a>
+        </ul>
+      </nav>
+    </div>
 
-.container {
-  border: 2px solid #ccc;
-  background-color: rgb(247, 189, 0);
-  border-radius: 5px;
-  padding: 16px;
-  margin: 16px 0;
-}
+    <header class="hero">
+      <img class="hero-img" src="images/shivank_pfcr.png" alt="not avalaible" />
+      <span>It is me learning something about Docker</span>
+      <br />
+      <small><strong>2018</strong></small>
+    </header>
 
-/* Clear floats after containers */
-.container::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-.container img {
-  float: left;
-  margin-right: 20px;
-  border-radius: 50%;
-}
-
-/* Increase the font-size of a span element */
-.container span {
-  font-size: 20px;
-  margin-right: 15px;
-}
-
-/* Add media queries for responsiveness. This will center both the text and the image inside the container */
-@media (max-width: 500px) {
-  .container {
-    text-align: center;
-  }
-
-  .container img {
-    margin: auto;
-    float: none;
-    display: block;
-  }
-}
-
-body {
-  font-family: Arial;
-  color: white;
-}
-
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.left {
-  left: 0;
-  background-color: #111;
-}
-
-.right {
-  right: 0;
-  background-color: rgb(83, 126, 204);
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
-</style>
-</head>
-<body>
-
-<div class="split left">
-  <div class="centered">
-    
-    <h2>Tea | Python | Movies and Web Series</h2>
-    <br><a href="characters.html">Things to Learn from characters</a></br>
-    <br><a href="philosophy.html">Philosophy</a></br>
-  </div>
-</div>
-
-<div class="split right">
-  <div class="centered">
-    <h1>Shivank Gautam</h1>
-    <p>currently working @ StackBOX</p>
-
-    <div class="container">
-        <br><a href="https://twitter.com/shivankgtm">Twitter</a></br>
-        <br><a href="https://github.com/shivank98">Github</a></br>
-        <br><a href="https://t.me/shivank98">Telegram</a></br>
+    <section class="section">
+      <div class="container container-center">
+        <h1>About Me</h1>
+        <p>
+          Hi, I am <strong>Shivank Gautam</strong>. I am a big fan of keeping
+          things as simple as possible. </p>
+          <p><strong>Green and Black Tea is not real TEA</strong></p>
+          <hr>
+          <p>Currently I am working with Motion as a SE. We are working in field of EdTech. During my graduation I started <a href="https://pyjaipur.org">PyJaipur</a> community in Jaipur, which later became one of the largest coding community in Rajasthan. If You are from any of Jaipur's University, we might have already met in a Hackathon:)</p>
+          <p>I was also very fortunate to mentor the very famous Deep Learning and Neural Network Course on Coursera.</p>
+        </p>
       </div>
+    </section>
 
+    <section class="section">
+      <div class="container container-section">
+        <h1>Technologies</h1>
 
+        <ul>
+          <li>
+            <img src="images/python-logo.svg" alt="Python" />
+          </li>
 
-  </div>
-</div>
-     
-</body>
-</html> 
+          <li><img src="images/django-logo.svg" alt="" /></li>
+
+          <li><img src="images/git-logo.svg" alt="" /></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- <section class="section">
+      <div class="container container-center"></div>
+
+    </section> -->
+  </body>
+</html>
