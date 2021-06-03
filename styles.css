@@ -21,8 +21,10 @@ body {
 }
 
 .primary-link {
-  background-color: var(--primary-color);
+  /* background-color: var(--off-grey); */
   border-radius: 0.5rem;
+  /* padding: 2rem; */
+  /* margin: 3rem; */
   color: white;
 }
 
@@ -83,6 +85,7 @@ hr {
 
 .section {
   background-color: #d1d5db;
+
   padding: 1rem;
   border-bottom-left-radius: 1rem;
   border-top-left-radius: 1rem;
